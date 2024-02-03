@@ -18,7 +18,8 @@ const getworkout = async (req, res) => {
   }
   res.status(200).json(workout);
 };
-//create
+//create workout
+
 const createworkout = async (req, res) => {
   const { tittle, loads, reps } = req.body;
   try {

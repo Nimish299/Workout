@@ -6,7 +6,7 @@ const {
   getworkout,
   updateworkout,
   deleteworkout,
-} = require('../controllers/Workoutcontrolers');
+} = require('../controllers/workoutcontrolers');
 // router.get('/', () => {});
 //all
 router.get('/', getworkouts);
