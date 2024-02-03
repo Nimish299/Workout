@@ -1,0 +1,13 @@
+git checkout test-branch
+git add .
+git commit -m 'Initial commit' 
+git push origin test-branch 
+
+git checkout test-branch // switch brach
+
+git status
+
+
+
+git add .
+git commit -m "Committing changes before switching branches"
