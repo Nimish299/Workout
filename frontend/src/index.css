@@ -122,3 +122,6 @@ div.error {
   border-radius: 4px;
   margin: 26px 0;
 }
+input.error {
+  border: 1px solid var(--error);
+}
