@@ -8,6 +8,6 @@ git checkout test-branch // switch brach
 git status
 
 
-
+git commit -am "Delete and context"
 git add .
 git commit -m "Committing changes before switching branches"
